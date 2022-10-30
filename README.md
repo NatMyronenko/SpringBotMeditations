@@ -1,2 +1,2 @@
 # SpringDemoBot
-Its a test variant of Telegram Spring Bot.
+It is a test variant of Telegram Spring Bot.
