@@ -69,10 +69,8 @@ public class TelegramService {
     public void setCommands() {
         List<BotCommand> listOfCommands = new ArrayList<>();
         listOfCommands.add(new BotCommand("/start", "get a welcome message"));
-        listOfCommands.add(new BotCommand("/mydata", "get your data stored"));
-        listOfCommands.add(new BotCommand("/deletedata", "delete my data"));
         listOfCommands.add(new BotCommand("/help", "info, how to use this bot"));
-        listOfCommands.add(new BotCommand("/settings", "set your preferences"));
+        listOfCommands.add(new BotCommand("/list_meditations", "choose meditation: "));
         listOfCommands.add(new BotCommand("/audio", "get audio file"));
 
         SetMyCommands setMyCommands = new SetMyCommands();
